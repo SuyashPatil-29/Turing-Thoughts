@@ -10,7 +10,7 @@ const Navbar = () => {
                 <li className="tracking-wide text-lg opacity-75 bg-[rgb(250,148,148)] px-3 py-1 rounded-xl text-slate-900"><Link to="/" >Home</Link></li>
                 <li className="tracking-wide text-lg hover:opacity-75 hover:bg-[rgb(250,148,148)] px-3 py-1 hover:rounded-xl hover:text-slate-900"><Link to="/about" >About</Link></li>
                 <li className="tracking-wide text-lg hover:opacity-75 hover:bg-[rgb(250,148,148)] px-3 py-1 hover:rounded-xl hover:text-slate-900"><Link href="" >Customer Login</Link></li>
-                <li className="tracking-wide text-lg hover:opacity-75 hover:bg-[rgb(250,148,148)] px-3 py-1 hover:rounded-xl hover:text-slate-900"><Link href="" >Employee Login</Link></li>
+                <li className="tracking-wide text-lg hover:opacity-75 hover:bg-[rgb(250,148,148)] px-3 py-1 hover:rounded-xl hover:text-slate-900"><Link to="/employee-login">Employee Login</Link></li>
             </ul>
         </div>
     );

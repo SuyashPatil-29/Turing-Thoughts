@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import Fantasy from "./canvas/Fantasy";
 
@@ -22,11 +23,13 @@ const Hero = () => {
 
 
         <div className="sm:hidden lg:mt-0 lg:col-span-5 lg:flex z-0">
+        <Link to={"/somewhere"} className="w-full h-full">
           <Fantasy />
+        </Link>
         </div>                
     </div>
     <div className="flex flex-row justify-evenly m-14">
-            <div className=" shadow-md shadow-slate-700 max-w-sm p-6 bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm p-6 bg-white border shadow-2xl border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Blogs</h5>
             </a>
